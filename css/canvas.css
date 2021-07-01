@@ -1,0 +1,28 @@
+#header{
+    background: red;
+}
+#footer{
+    background: red;
+}
+#canvas{
+    border: 2px solid green;
+    height:300px;
+    width: 300px;
+} 
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+h1{
+    text-align: center;
+    font-style:italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: cornflowerblue;
+}
+#file-upload-button{
+    padding: 2%;
+
+}

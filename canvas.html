@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Canvas</title>
+    <link rel="stylesheet" href="css/canvas.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Uplaoad and Download Image</h1>
+    <div class="main">
+      <div>
+        <label for="head">Enter Text you want to add in Header:</label>
+        <input type="text" id="head">
+        <br><br>
+        <label for="foot">Enter Text you want to add in Footer:</label>
+        <input type="text" id="foot">
+        <br><br>
+<!--    <label for="uploader">Choose File: </label>-->    
+        <input type="file" id="uploader" >
+        <br>
+        <button class="btn btn-success">Download</button>
+      </div>
+     
+      <div>
+        <canvas id="canvas"></canvas>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/canvas2.js"></script>
+
+  </body>
+</html>
